@@ -1,0 +1,76 @@
+<div style="font-family: 'Orbitron', sans-serif;" class="container">
+    <div class="">
+        <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+        <table>
+            <tr>
+                <td>
+                    {{result}}
+
+                </td>
+            </tr>
+        </table>
+
+        <div class="calc">
+            <div class="first">
+
+                <input style="font-family: 'Orbitron', sans-serif;" class="btn1" type="button" value="1"
+                    (click)="one()">
+
+                <input style="font-family: 'Orbitron', sans-serif;" class="btn2" type="button" value="2"
+                    (click)="two()">
+
+                <input style="font-family: 'Orbitron', sans-serif;" class="btn3" type="button" value="3"
+                    (click)="three()">
+
+            </div>
+
+            <div style="font-family: 'Orbitron', sans-serif;" class="second">
+                <input style="font-family: 'Orbitron', sans-serif;" class="btn4" type="button" value="4"
+                    (click)="four()">
+
+                <input style="font-family: 'Orbitron', sans-serif;" class="btn5" type="button" value="5"
+                    (click)="five()">
+
+                <input style="font-family: 'Orbitron', sans-serif;" class="btn6" type="button" value="6"
+                    (click)="six()">
+            </div>
+
+            <div style="font-family: 'Orbitron', sans-serif;" class="third">
+
+                <input style="font-family: 'Orbitron', sans-serif;" class="btn7" type="button" value="7"
+                    (click)="seven()">
+
+                <input style="font-family: 'Orbitron', sans-serif;" class="btn8" type="button" value="8"
+                    (click)="eight()">
+
+                <input style="font-family: 'Orbitron', sans-serif;" class="btn9" type="button" value="9"
+                    (click)="nine()">
+
+
+            </div>
+
+            <input class="btn0" type="button" value="0" (click)="null()">
+
+            <div style="font-family: 'Orbitron', sans-serif;" class="math">
+
+                <input style="font-family: 'Orbitron', sans-serif;" class="divide" type="button" value="/"
+                    (click)="divide()">
+
+                <input style="font-family: 'Orbitron', sans-serif;" class="minus" type="button" value="-"
+                    (click)="minus()">
+
+                <input style="font-family: 'Orbitron', sans-serif;" class="times" type="button" value="*"
+                    (click)="times()">
+
+                <input style="font-family: 'Orbitron', sans-serif;" class="plus" type="button" value="+"
+                    (click)="plus()">
+
+                <input style="font-family: 'Orbitron', sans-serif;" class="vysledek" id="vysledek" type="button"
+                    value="=" (click)="vysledek()">
+            </div>
+
+
+        </div>
+
+    </div>
+</div>
